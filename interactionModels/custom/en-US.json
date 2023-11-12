@@ -1,0 +1,80 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "item",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "AddItemIntent",
+          "samples": [
+            "I want {item}",
+            "Add {item}",
+            "Add {item} to my list"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "CheckoutIntent",
+          "samples": [
+            "checkout smart shop",
+            "deliver the items",
+            "checkout the cart"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "Yea",
+            "Yes"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "Nah",
+            "No"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "smart shop"
+    }
+  }
+}
